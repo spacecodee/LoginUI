@@ -1,6 +1,8 @@
 import eel
 import sys
 
+# python -m eel main.py web --onefile --noconsole --icon=./web/img/login.ico >= hacer ejecutable de windows
+
 sys.path.append('..')
 eel.init('web')
 
